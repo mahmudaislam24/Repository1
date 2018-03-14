@@ -41,7 +41,7 @@ public class OurWebSite2  {
 	}
 	@Test(priority=7)
 	public void EnterClickOnMail() {
-		driver.findElement(By.xpath("//input[7]")).click();
+		driver.findElement(By.xpath("//input[10]")).click();
 		
 		
 		
