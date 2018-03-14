@@ -40,7 +40,7 @@ public class OurWebSite2  {
 	driver.findElement(By.name("PWord")).sendKeys("12345");
 	}
 	@Test(priority=7)
-	public void EnterClickOnMail() {
+	public void EnterClickOnMail {
 		driver.findElement(By.xpath("//input[10]")).click();
 		
 		
