@@ -35,7 +35,7 @@ public void Facebook() throws InterruptedException {
 	Select yearSelect=new Select(driver.findElement(By.name("birthday_year")));
 	yearSelect.selectByVisibleText("1994");
 	
-	driver.findElement(By.name("male")).click();
+	driver.findElement(By.name("sex")).click();
 	Thread.sleep(3000);
 	driver.close();
 	
